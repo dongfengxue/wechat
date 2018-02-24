@@ -1,0 +1,24 @@
+/**index.wxss**/
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.userinfo-avatar {
+  width: 500rpx;
+  height: 500rpx;
+  margin: 40rpx;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.finger_guessing {
+  color: #f00;
+  font-size: 30px;
+  margin-top: 20px;
+}

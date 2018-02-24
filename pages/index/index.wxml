@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container"> 
+<text class="finger_guessing">哪个茹茹最美丽</text>
+<view   class="userinfo"> 
+<image class="userinfo-avatar" src="{{imagePath}}" background-size="cover"/> 
+<button bindtap="guess">{{title}}</button> 
+<button class="button-style" type="primary" bindtap="listenerButtonPlay">播放</button> 
+</view>
+</view> 
